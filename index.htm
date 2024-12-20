@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<body>
+    <nav class="navbar">
+        <u1 class="navbar-u1">
+          <li class="brand"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="logo no load">Spotify</li>
+          <li>Home</li>
+          <li>About</li>
+        </u1>
+    </nav>    
+    
+
+
+    <div class="container">
+        <div class="songList">
+          <h1>Best Songs - No Copyright Sounds</h1>
+          <div class="songItemContainer">
+            <div class="songItem">
+                <img src="https://i.ytimg.com/vi/GqWYJT-iMTw/maxresdefault.jpg" alt="no load">
+                <span class="songName">Baby song Justin Biebe</span>
+                <span class="songlistplay"><span class="timestamp">03:40&nbsp;&nbsp;<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://i.pinimg.com/236x/68/fd/09/68fd097b9c1d73a008a9c76cc60b20b1.jpg" alt="no load">
+                <span class="songName">Unstoppable song by Sia</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;&nbsp;<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://m.media-amazon.com/images/M/MV5BMDJjZGY3ZWItNDljZS00MzYwLWFhOTAtMTVlMjQ2MmYxMjliXkEyXkFqcGc@._V1_QL75_UX820_.jpg" alt="no load">
+                <span class="songName">G.O.A.T. Song - Diljit Dosanjh</span>
+                <span class="songlistplay"><span class="timestamp">03:43&nbsp;&nbsp;<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://pagalfree.com/images/128Satisfya%20-%20Imran%20Khan%20128%20Kbps.jpg" alt="no load">
+                <span class="songName">Satisfya - Imran Khan Song</span>
+                <span class="songlistplay"><span class="timestamp">03:00&nbsp;&nbsp;<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://koshalworld.com/siteuploads/thumb/sft61/30152_4.jpg" alt="no load">
+                <span class="songName">About Me - Jordan Sandhu</span>
+                <span class="songlistplay"><span class="timestamp">03:04&nbsp;&nbsp;<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="
+                https://media.gettyimages.com/id/2150510315/photo/vancouver-british-columbia-diljit-dosanjh-kicks-off-his-dil-luminati-tour-at-bc-place-on.jpg?s=612x612&w=0&k=20&c=h6YTlwcOxfHT-AgOuZ2u6f0iFU1uCDfGsrWP1oApyeI=" alt="no load">
+                <span class="songName">Born To Shine - Diljit Dosanjh</span>
+                <span class="songlistplay"><span class="timestamp">03:38&nbsp;&nbsp;<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://c.saavncdn.com/208/Pal-From-Jalebi--Hindi-2018-20180912085100-500x500.jpg" alt="no load">
+                <span class="songName">Pal - Jalebi Song</span>
+                <span class="songlistplay"><span class="timestamp">04:07&nbsp;&nbsp;<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div> 
+
+            <div class="songItem">
+                <img src="https://pagalnew.com/coverimages/Zaalima-Dystinct-500-500.jpg" alt="no load">
+                <span class="songName">Zaalima Song - Dystinct</span>
+                <span class="songlistplay"><span class="timestamp">03:07&nbsp;&nbsp;<i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="https://pagalnew.com/coverimages/kesariya-brahmastra-500-500.jpg" alt="no load">
+                <span class="songName">Kesariya Song - Brahmastra</span>
+                <span class="songlistplay"><span class="timestamp">04:28&nbsp;&nbsp;<i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="https://pagalnew.com/coverimages/Tera-Fitoor-Genius-500-500.jpg" alt="no load">
+                <span class="songName">Tera Fitoor Song - Genius</span>
+                <span class="songlistplay"><span class="timestamp">05:10&nbsp;&nbsp;<i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+          </div>
+       </div>
+        
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>&nbsp;&nbsp;
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>&nbsp;&nbsp;
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="https://i.gifer.com/5uwq.gif" width="50px" height="20px" alt="no load" id="gif">&nbsp;&nbsp;<span id="masterSongName"></span>
+        </div>
+    </div>
+    
+
+   
+
+<script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>    
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
